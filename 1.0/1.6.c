@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main() {
-    int c;
+int main(void) {
+    int result;
 
-    while ((c = getchar()) != EOF != 0) {
-	putchar(c);
-    }
+    printf("Enter a character or send EOF signal:\n");
 
-    printf("0");
-    printf("\nEnd\n");
+    result = (getchar() != EOF);
+
+    printf("Result: %d\n", result);
 }
