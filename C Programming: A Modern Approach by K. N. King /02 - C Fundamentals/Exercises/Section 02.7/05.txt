@@ -1,0 +1,14 @@
+Which of the following are not legal C identifiers?
+
+(a) 100_bottles
+(b) _100_bottles
+(c) one__hundred__bottles
+(d) bottles_by_the_hundred_
+
+Answer:
+(a) 100_bottles, because it starts with a digit. 
+Other illegal identifiers include those that are C compilation keywords, 
+or those that contain dashes (-), spaces, or special characters.
+
+Dangerous identifiers include those starting with _X (where X is any capital letter), 
+or those starting with a single underscore (_) or two underscores (__).

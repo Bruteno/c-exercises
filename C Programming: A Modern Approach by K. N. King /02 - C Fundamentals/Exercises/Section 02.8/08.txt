@@ -1,0 +1,21 @@
+How many tokens are there in the following statement?
+
+answer=(3*q-p*p)/3;
+
+Answer:
+In total there are 14 tokens.
+
+answer -  1
+=      -  2
+(      -  3
+3      -  4
+*      -  5
+q      -  6
+-      -  7
+p      -  8
+*      -  9
+p      - 10
+)      - 11
+/      - 12
+3      - 13
+;      - 14

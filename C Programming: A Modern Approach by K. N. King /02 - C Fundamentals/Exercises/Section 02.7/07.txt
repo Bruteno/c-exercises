@@ -1,0 +1,13 @@
+Which of the following are keywords in C?
+(a) for
+(b) If
+(c) main
+(d) printf
+(e) while
+
+Answer:
+(a) for, (e) while.
+
+(b) If is not a keyword, because C is case-sensitive.
+(c) main is not a keyword but a function.
+(d) printf is not a keyword but a function.
